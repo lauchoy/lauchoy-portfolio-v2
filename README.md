@@ -23,27 +23,6 @@ A modern, responsive creative portfolio website built with Astro, TypeScript, an
 - **Fonts**: Inter, Playfair Display, JetBrains Mono (Google Fonts)
 - **Icons**: Heroicons (SVG icons)
 
-## 📁 Project Structure
-
-```
-lauchoy-portfolio-v2/
-├── public/                 # Static assets
-├── src/
-│   ├── components/        # Reusable components
-│   ├── layouts/          # Page layouts
-│   │   └── BaseLayout.astro
-│   ├── pages/            # Route pages
-│   │   ├── index.astro   # Homepage
-│   │   ├── work.astro    # Portfolio page
-│   │   ├── about.astro   # About page
-│   │   └── contact.astro # Contact page
-│   └── styles/
-│       └── global.css    # Global styles and Tailwind imports
-├── astro.config.mjs      # Astro configuration
-├── tailwind.config.mjs   # Tailwind configuration
-└── package.json
-```
-
 ## 🎨 Design Features
 
 ### Color Palette
@@ -63,70 +42,21 @@ lauchoy-portfolio-v2/
 - **Contact Form**: Professional form with validation
 - **Footer**: Comprehensive site information and social links
 
-## 🛠️ Installation & Setup
+## 🛠️ Development
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/lauchoy/lauchoy-portfolio-v2.git
-   cd lauchoy-portfolio-v2
-   ```
+```bash
+# Install dependencies
+npm install
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
+# Start development server
+npm run dev
 
-3. **Start development server**
-   ```bash
-   npm run dev
-   ```
+# Build for production
+npm run build
 
-4. **Open in browser**
-   Navigate to `http://localhost:4321`
-
-## 📝 Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run astro` - Run Astro CLI commands
-
-## 🚀 Deployment
-
-### GitHub Pages
-This project is configured for GitHub Pages deployment:
-
-1. **Build the project**
-   ```bash
-   npm run build
-   ```
-
-2. **Deploy to GitHub Pages**
-   The site will be available at: `https://lauchoy.github.io/lauchoy-portfolio-v2`
-
-### Other Platforms
-The built files in the `dist/` folder can be deployed to any static hosting service:
-- Netlify
-- Vercel
-- Cloudflare Pages
-- AWS S3
-
-## 🎯 Customization
-
-### Content Updates
-- **Personal Information**: Update contact details in `src/layouts/BaseLayout.astro`
-- **Portfolio Projects**: Modify project data in `src/pages/work.astro`
-- **About Content**: Edit personal story in `src/pages/about.astro`
-- **Services**: Update service offerings in `src/pages/index.astro`
-
-### Styling
-- **Colors**: Modify the color palette in `tailwind.config.mjs`
-- **Fonts**: Update font selections in `src/styles/global.css`
-- **Animations**: Customize animations in the Tailwind config
-
-### Configuration
-- **Site URL**: Update in `astro.config.mjs`
-- **Meta Tags**: Modify default descriptions in `BaseLayout.astro`
+# Preview production build
+npm run preview
+```
 
 ## 📱 Responsive Design
 
@@ -142,21 +72,6 @@ The portfolio is fully responsive with breakpoints:
 - Keyboard navigation support
 - High contrast color ratios
 - Screen reader friendly
-
-## 🔧 Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/lauchoy/lauchoy-portfolio-v2/issues).
 
 ## 📞 Contact
 
